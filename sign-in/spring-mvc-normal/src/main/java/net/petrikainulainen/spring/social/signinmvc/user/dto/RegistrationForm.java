@@ -6,6 +6,7 @@ import net.petrikainulainen.spring.social.signinmvc.user.validation.PasswordsNot
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
+import org.springframework.social.facebook.connect.FacebookServiceProvider;
 
 import javax.validation.constraints.Size;
 
